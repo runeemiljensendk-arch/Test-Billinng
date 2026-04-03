@@ -3,7 +3,7 @@
 set -euo pipefail
 trap 'echo "${RED}[ERR]${NC} An error occurred at line ${LINENO} while executing: ${BASH_COMMAND}" | tee /dev/tty >&2' ERR
 
-TITLE="DezerX Spartan Installer"
+TITLE="super installer"
 LOG="/var/log/spartan_installer.log"
 DOMAIN=""
 APP_DIR="/var/www/spartan"

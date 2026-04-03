@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-# DezerX Spartan – Interactive Installer
-# Distros: Ubuntu/Debian, CentOS/RHEL/Alma/Rocky, Fedora
-# Made by HdBento & Anthony S
 
 set -euo pipefail
 trap 'echo "${RED}[ERR]${NC} An error occurred at line ${LINENO} while executing: ${BASH_COMMAND}" | tee /dev/tty >&2' ERR
